@@ -1,0 +1,46 @@
+*{
+
+}
+body{
+    display:flex;
+    flex-direction: column;
+    width: 50vw;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+    font-size: 20px;
+    background-color: blueviolet;
+    border: black 5px solid;
+    padding: 5px;
+    z-index: 100;
+    text-align: center;
+    display: block;
+
+
+}
+label{
+    font-size: 2rem;
+}
+
+ 
+
+#btn-response{
+    color: darkblue;
+    text-decoration:black;
+    height: 3rem;
+    width: 6rem;
+    
+}
+
+#output-box{
+    font-size: 2rem;
+}
+button{
+    color: darkblue;
+}
