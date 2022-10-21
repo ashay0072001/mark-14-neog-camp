@@ -54,9 +54,9 @@ function showOutput(message){
 
  function submitAllValues(){
     
-var ip = initialValue.value;
-var qp =quantityValue.value;
-var cp = currentValue.value
+var ip = Number(initialValue.value);
+var qp =Number(quantityValue.value);
+var cp =Number( currentValue.value);
 multiOfInitialAndQuantity(ip,qp,cp)
  }
 
